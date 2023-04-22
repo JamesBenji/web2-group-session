@@ -1,0 +1,49 @@
+/***
+    selectors:
+        element
+        universal
+        descendant
+        class
+        id
+        grouping
+
+        selector{
+            property/attribute: value;
+        }
+
+
+*/
+
+body{
+    color: red;
+}
+
+p{
+    background-color: yellow;
+    /* if the padding left or bottom is not given
+    css takes the value of the right or top as its value */
+    padding: 100px 10px; 
+    border: 2px solid black;
+    /* padding-top: 10px;
+   padding-left: 10px;
+    padding-bottom: 90px;
+    padding-right: 10px; */
+}
+/* 
+.last-paragraph{
+    color: green;
+}
+
+#first-paragraph{
+    color: blue;
+} */
+
+ul{
+    list-style: none;
+    padding: 0px;
+}
+
+ul li{
+    display: inline;
+    
+}
